@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Access - Anish</title>
+    <style>
+        body {
+            background-color: #030303;
+            color: #00ff33;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 20px;
+            margin: 0;
+            text-shadow: 0 0 5px #00ff33;
+        }
+        .terminal {
+            max-width: 800px;
+            margin: 0 auto;
+            border: 1px solid #00ff33;
+            box-shadow: 0 0 15px rgba(0, 255, 51, 0.2);
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.9);
+        }
+        h1 {
+            border-bottom: 1px solid #00ff33;
+            padding-bottom: 10px;
+            animation: blink 1.5s infinite;
+        }
+        .line {
+            margin: 10px 0;
+            line-height: 1.5;
+        }
+        .user {
+            color: #0088ff;
+            text-shadow: 0 0 5px #0088ff;
+        }
+        .dir {
+            color: #ffffff;
+            text-shadow: 0 0 5px #ffffff;
+        }
+        @keyframes blink {
+            50% { opacity: 0.6; }
+        }
+    </style>
+</head>
+<body>
+<div class="terminal">
+    <h1>[ SYSTEM OVERRIDE ACTIVE ]</h1>
+    <div class="line"><span class="user">anish@rootless_os</span>:<span class="dir">~</span>$ status_check</div>
+    <div class="line">> Loading modules... [OK]</div>
+    <div class="line">> Establishing secure tunnel... [OK]</div>
+    <div class="line">> Server status: Running 24/7 on GitHub Cloud.</div>
+    <div class="line" style="margin-top: 30px;"><span class="user">anish@rootless_os</span>:<span class="dir">~</span>$ cat welcome.txt</div>
+    <div class="line">--------------------------------------------------</div>
+    <div class="line">WELCOME TO ANISH POOJARY'S CORE TERMINAL.</div>
+    <div class="line">This static page is permanently locked into space.</div>
+    <div class="line">--------------------------------------------------</div>
+    <div class="line" style="margin-top: 30px; animation: blink 1s infinite;">_ </div>
+</div>
+</body>
+</html>
+
